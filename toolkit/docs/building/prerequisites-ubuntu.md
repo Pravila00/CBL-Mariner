@@ -18,7 +18,7 @@ sudo apt -y install \
     gawk \
     genisoimage \
     git \
-    golang-1.19-go \
+    golang-1.20-go \
     make \
     parted \
     pigz \
@@ -28,8 +28,8 @@ sudo apt -y install \
     wget \
     xfsprogs
 
-# Fix go 1.19 link
-sudo ln -vsf /usr/lib/go-1.19/bin/go /usr/bin/go
+# Fix go 1.20 link
+sudo ln -vsf /usr/lib/go-1.20/bin/go /usr/bin/go
 
 # Install and configure Docker.
 curl -fsSL https://get.docker.com -o get-docker.sh
